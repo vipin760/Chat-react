@@ -1,0 +1,11 @@
+.login_page{
+    margin-top: 10%;
+    height: 88.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    border: 1px solid black;
+    padding: 1rem;
+}
