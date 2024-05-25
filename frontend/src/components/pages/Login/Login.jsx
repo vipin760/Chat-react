@@ -3,18 +3,21 @@ import "./Login.css"
 const Login = () => {
   return (
     <div className='login_page'>
-        <form action="" className='form'>
-        <h2>Login Here...</h2>  
-          <div className='box'>
-            <label htmlFor="">name</label>
-            <input type="text" name='name' placeholder='name' />
-          </div>
-          <div className='box'>
-            <label htmlFor="">name</label>
-            <input type="text" name='name' placeholder='name' />
-          </div>
+       <form action="">
+        <h2>Login Here</h2>
+        <hr />
+        <div className='input_box'>
+          <label htmlFor="">Email:</label>
+          <input type="text" />
+        </div>
+        <div className='input_box'>
+          <label htmlFor="">Passwod:</label>
+          <input type="text" />
+        </div>
+        <div className='input_box'>
           <button>Login</button>
-        </form>
+        </div>
+       </form>
     </div>
   )
 }
