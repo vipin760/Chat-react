@@ -1,0 +1,7 @@
+.App{
+    background-image: url("https://cdn.pixabay.com/photo/2024/05/19/16/42/ai-generated-8772917_640.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
